@@ -3,7 +3,9 @@
 更改了获取包名的方法 安装和官网一样 
 ```
 ionic cordova plugin add https://github.com/ZhuSiSheng/cordova-plugin-app-version-umeng
+
 npm install --save @ionic-native/app-version@4
+
 this.appVersion.getPackageName().then(val=>{
     alert(val)
 })
